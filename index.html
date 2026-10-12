@@ -8,12 +8,16 @@
 </head>
 <body>
 
+
   <!-- HEADER -->
+
+
   <section>
     <nav>
       <div class="logo">
         <img src="./assets/fes-logo.png" alt="Frontend Simplified logo" class="logo__img" width="50"/>
-        <h1 class="logo__text"><b>Frontend</b> Simplified</h1>
+        <h1 class="logo__text">
+          <b>Frontend</b> Simplified</h1>
       </div>
       <ul>
         <li><a href="#about">About</a></li>
@@ -52,7 +56,14 @@
     </header>
   </section>
 
+  <!-- MAIN -->
+
   <main>
+
+
+        <!-- ABOUT -->
+
+
     <section id="about">
       <div class="row about__row">
         <div class="section__card section__card--about">
@@ -63,20 +74,72 @@
              <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus quis ratione cumque neque velit illo, quaerat dicta quam reiciendis? Quasi, perferendis sequi repellat nam architecto soluta cum doloribus possimus.</p>
            </div>
            <figure class="section__img--wrapper">
-              <img src="./assets/reading.png" alt="Reading illustration" class="section__img"/>
+              <img src="./assets/reading.png" alt="2 friends reading a map" class="section__img"/>
            </figure>
          </div>
         </div>
       </div>
     </section>
 
-    <!-- MAIN -->
+
+         <!-- SOCIAL -->
+
+
+    <section id="social">
+      <div class="row social__row">
+        <div class="section__card section__card--social">
+          <h1 class="section__title">Social</h1>
+           <div class="section__description">
+             <figure class="section__img--wrapper">
+              <img src="./assets/social.png" alt="2 friends making a layout" class="section__img"/>
+           </figure>
+            <div class="section__description--wrapper">
+             <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus quis ratione cumque neque velit illo, quaerat dicta quam reiciendis? Quasi, perferendis sequi repellat nam architecto soluta cum doloribus possimus.</p>
+             <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus quis ratione cumque neque velit illo, quaerat dicta quam reiciendis? Quasi, perferendis sequi repellat nam architecto soluta cum doloribus possimus.</p>
+           </div>
+          
+         </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="row contact__row">
+        <div class="section__card section__card--contact">
+          <h1 class="section__title">Contact</h1>
+          <div class="section__description">
+            <form action="">
+              <span>Email</span>
+              <input type="email" name="email" placeholder="kathryn@example.com" id="email" />
+              <span>Message</span>
+              <textarea type="text" placeholder="Your message here" id="message"></textarea>
+              <button type="submit">Send</button>
+            </form> 
+            
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main>
 
-       <!-- ABOUT -->
-    <section id="about">
-    </section>
+
+  <!--FOOTER-->
+
+  
+  <footer>
+    <div class="logo footer__logo">
+      <img src="./assets/fes-logo.png" alt="Logo" class="logo__img" width="50"/>
+      <h1 class="logo__text"><b>Frontend</b> Simplified</h1>
+    </div>
+    <div class="footer__links">
+       <a href="#about" class="footer__link">About</a>
+       <a href="#social" class="footer__link">Social</a>
+       <a href="#contact" class="footer__link">Contact</a>
+       <a href="#" class="footer__link">Home</a>
+       <p> &copy; 2024 Frontend Simplified</p>
+    </div>
+  </footer>
 
 </body>
 </html>
